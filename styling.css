@@ -1,0 +1,16 @@
+#photographer{
+    max-width: 100%;
+}
+.sticky-top{
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    z-index: 1200;
+    transform: translate(-50%, -50%);
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    left: 10px;
+  }
+  
