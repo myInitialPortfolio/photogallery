@@ -1,1 +1,1 @@
-# photogallery
+# main page
