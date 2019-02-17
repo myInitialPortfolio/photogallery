@@ -1,80 +1,183 @@
 <!DOCTYPE html>
 <html>
-  <title>base</title>
+  <title>main</title>
   <meta charset="UTF-8">
 <head>
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
-        crossorigin="anonymous">
-      <link rel="stylesheet" href="./styling.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="./css4index2.css" />
       <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 </head>
 
 <body> 
     <div class="container">
+      <div class="bigColumn">
         <div class="row">
-            <div class="col">
-                <img id="photographer" src="" alt="mainPhoto" class="img-responsive">
-                    <div class="carousel-caption">
-                            <h2><span id="aigerim" class="border"></span></h2>
-                            <nav class="navbar sticky-top navbar-light bg-light">
-                                    <a id="control-btn" class="navbar-brand" href="#"></a>
-                                    <a id="control-btn" class="navbar-brand" href="#"></a>
-                                    <a id="control-btn" class="navbar-brand" href="#"></a>
-                                  </nav>     
-                    </div>
+          
+          <div class="col-3">
+              
+              <!-- <p id="list-item-1"></p>
+              <div id="list-example" class="list-group">
+                  <a class="list-group-item list-group-item-action" href="#about-me">About me</a>
+                  <a class="list-group-item list-group-item-action" href="#list-item-2">Portfolio</a>
+                  <a class="list-group-item list-group-item-action" href="#list-item-3">Contact</a>
+                </div> -->
+                <!-- <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example">
+                  <h4 id="list-item-1">Item 1</h4>
+                  <p>...</p>
+                  <h4 id="list-item-2">Item 2</h4>
+                  <p>...</p>
+                  <h4 id="list-item-3">Item 3</h4>
+                  <p>...</p>
+                  <h4 id="list-item-4">Item 4</h4>
+                  <p>...</p>
+                </div> -->
+          <!-- Sidebar/menu -->
+          <nav class="w3-sidebar w3-bar-block w3-white w3-animate-left w3-text-grey w3-collapse w3-top w3-center" style="z-index:3;width:300px;font-weight:bold" id="mySidebar"><br>
+            <h3 class="w3-padding-64 w3-center"><b>AIGERIM<br>OMAROVA</b></h3>
+            <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-hide-large">CLOSE</a>
+            <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">PORTFOLIO</a> 
+            <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT ME</a> 
+            <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+          </nav>
+
             </div>
-        
-        </div> 
-        <div class="row">
-          <div class="col">
-              <img id="firstPhoto" src="" alt="test" class="img-fluid">
+
+            <div class="col-9">
+              <!-- 1 ряд -->
+              <div class="row">
+            <div class="col-4">
+                <img id="firstPhoto" src="" alt="test" class="img-fluid">
+            </div>
+            <div class="col-4">
+                <img id="firstPhoto" src="" alt="test" class="img-fluid">
+            </div>
+            <div class="col-4">
+                <img id="firstPhoto" src="" alt="test" class="img-fluid">
+            </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col">
-              <img id="secondPhoto" src="" alt="test" class="img-fluid">
+          <!-- 2 ряд -->
+          <div class="row">
+              <div class="col-4">
+                  <img id="firstPhoto" src="" alt="test" class="img-fluid">
+              </div>
+              <div class="col-4">
+                  <img id="firstPhoto" src="" alt="test" class="img-fluid">
+              </div>
+              <div class="col-4">
+                  <img id="firstPhoto" src="" alt="test" class="img-fluid">
+              </div>
+            </div>
+            <!-- 3 ряд -->
+            <div class="row">
+                <div class="col-4">
+                    <img id="firstPhoto" src="" alt="test" class="img-fluid">
+                </div>
+                <div class="col-4">
+                    <img id="firstPhoto" src="" alt="test" class="img-fluid">
+                </div>
+                <div class="col-4">
+                    <img id="firstPhoto" src="" alt="test" class="img-fluid">
+                </div>
+              </div>
+              <!-- 4 ряд -->
+              <div class="row">
+                  <div class="col-4">
+                      <img id="firstPhoto" src="" alt="test" class="img-fluid">
+                  </div>
+                  <div class="col-4">
+                      <img id="firstPhoto" src="" alt="test" class="img-fluid">
+                  </div>
+                  <div class="col-4">
+                      <img id="firstPhoto" src="" alt="test" class="img-fluid">
+                  </div>
+                </div>
+                <!-- 5 ряд -->
+                <div class="row">
+                    <div class="col-4">
+                        <img id="firstPhoto" src="" alt="test" class="img-fluid">
+                    </div>
+                    <div class="col-4">
+                        <img id="firstPhoto" src="" alt="test" class="img-fluid">
+                    </div>
+                    <div class="col-4">
+                        <img id="firstPhoto" src="" alt="test" class="img-fluid">
+                    </div>
+                  </div>
+                <div class="back-side-about-me">
+                  <!-- empty space -->
+                  <div class="row">
+                      <div  class="col">
+                        <p id="empty-space"></p>
+                      </div>
+                    </div>
+
+                    <!-- about me -->
+                  <div class="row">
+                      <div  class="col">
+                          <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example">
+                              <h3 id="about">About me</h3>
+                            </div>
+                      </div>
+                    </div>
+                    <div class="row"><p></p></div>
+                    <div class="row"><p></p></div>
+                      <!-- my photo -->
+                    <div class="row">
+                          <div  class="col-3"><p></p></div>
+                          <div  class="col-6">
+                              <img id="img-about-me" src="" alt="test" class="img-fluid">
+                            </div>
+                          <div  class="col-3"><p></p></div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-3"><p></p></div>
+                        <div class="col-6"><p >Aigerim Omarova</p></div>
+                        <div  class="col-3"><p></p></div>
+                      </div>
+
+
+                      <div class="row">
+                        <div class="col-3"><p></p></div>
+                        <div class="col-6">
+                          <p id="plain-text"></p>
+                           <p></p></div>
+                          <div  class="col-3"><p></p></div>
+                      </div>
+                        
+                      <div class="row">
+                          <div class="col-3"><p></p></div>
+                          <div class="col-6">
+                            <p>mail: example@example.com</p>
+                             <p></p></div>
+                            <div  class="col-3"><p></p></div>
+                        </div>    
+                          
+                        <div class="row">
+                            <div class="col-3"><p></p></div>
+                            <div class="col-6">
+                              <p id="contact">tel: 5353 35531</p>
+                               <p></p></div>
+                              <div  class="col-3"><p></p></div>
+                          </div> 
+                        </div>
+                        
+                    </div>
+                  </div>
+
           </div>
-        </div>
-        <div class="row">
-          <div class="col">
-              <img id="thirdPhoto" src="" alt="test" class="img-fluid">
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-              <img id="thirdPhoto" src="" alt="test" class="img-fluid">
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-              <img id="thirdPhoto" src="" alt="test" class="img-fluid">
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-              <img id="thirdPhoto" src="" alt="test" class="img-fluid">
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-              <img id="thirdPhoto" src="" alt="test" class="img-fluid">
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-              <img id="thirdPhoto" src="" alt="test" class="img-fluid">
-          </div>
-        </div>
-    </div>                   
+          
+              
+        </div>    
+    </div>             
 
   <script src="./base.js"></script>
-
+  
 </body>
 
 
-<!-- Footer -->
-<footer> 
- 
-</footer>
+
 
 </html>

@@ -1,9 +1,10 @@
 #photographer{
     max-width: 100%;
 }
-.sticky-top{
+#aigerim{
+    background: yellow; 
     position: absolute;
-    top: 110%;
+    top: 100%;
     left: 50%;
     z-index: 1200;
     transform: translate(-50%, -50%);
@@ -13,4 +14,27 @@
     height: auto;
     left: 10px;
   }
-  
+
+  #empty-space{
+      background: #f1f1f1!important;
+      height: 60px;
+  }
+
+  #about{
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    z-index: 1200;
+    transform: translate(-50%, -50%);
+  }
+  .back-side-about-me{
+      background-color:#f1f1f1!important; 
+  }
+  .text-about-me{
+      color: white;
+      position: absolute;
+    top: 110%;
+    left: 50%;
+    z-index: 1200;
+    transform: translate(-50%, -50%);
+  }
